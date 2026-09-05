@@ -39,9 +39,13 @@ Database should be backup to prevent loss of student record if its happened back
 
 # Principle of Least Privilege
 User | Allowed Access
+
 Administrator | Full access so it can manage the cloud and security setting
+
 Instructor | Access to view and manage the student records
+
 Student | Access to view their own student infromation
+
 Developer | Developer can access the application code and development tools but limited access to database of the student
 
 # Shared Responsibility Model
