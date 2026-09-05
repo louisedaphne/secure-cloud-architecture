@@ -22,20 +22,20 @@ Database | Private | Database it should be private because it contain a private 
 
 # Security Controls
 
-IAM
-- The cloud environment must be accessible only by authorized users. Administrators must have more permissions to  environment while normal users can only access the function they need.
-MFA
-- MFA should be enable for administrators and individuals who have access to confidential information for added layer of security.
-Firewall / Security Group
+- IAM
+The cloud environment must be accessible only by authorized users. Administrators must have more permissions to  environment while normal users can only access the function they need.
+- MFA
+MFA should be enable for administrators and individuals who have access to confidential information for added layer of security.
+- Firewall / Security Group
 
-Encryption
-- student information should be encrypted to ensure no unauthorized people can access the confidential information.
-Logging
-- Every activity once login should be recorded like failed login attempts, user logins also the changes that made in the cloud should be recorded for security incidents.
-Monitoring
-- system needs to monitor any suspicious behavior like multiple login failures and illegal access attempts to access database.
-Backup
-- Database should be backup to prevent loss of student record if its happened backup record allow to restored the information if accidentally delete or corrupted.
+- Encryption
+student information should be encrypted to ensure no unauthorized people can access the confidential information.
+- Logging
+Every activity once login should be recorded like failed login attempts, user logins also the changes that made in the cloud should be recorded for security incidents.
+- Monitoring
+system needs to monitor any suspicious behavior like multiple login failures and illegal access attempts to access database.
+- Backup
+Database should be backup to prevent loss of student record if its happened backup record allow to restored the information if accidentally delete or corrupted.
 
 # Principle of Least Privilege
 User | Allowed Access
