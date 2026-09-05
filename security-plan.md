@@ -16,8 +16,12 @@ Private Database
 Resource |  Public or Private? | Explanation
 
 CDN | Public | CND need to be public because users need to access the website through internet 
+
 Load Balance  | Public | Load Balance need to be public because users make a requests and send it to the application server
-Application Server | Private | Application Server should be private because it need to be protected from direct access from the internet it need to be private 
+
+Application Server | Private | Application Server should be private because it need to be protected from direct access from
+the internet it need to be private 
+
 Database | Private | Database it should be private because it contain a private information that only application server it should be only access by application server
 
 # Security Controls
@@ -49,14 +53,23 @@ Student | Access to view their own student infromation
 Developer | Developer can access the application code and development tools but limited access to database of the student
 
 # Shared Responsibility Model
+
 Responsibility | Cloud Provider or Customers?
+
 Physical data center | Cloud Provider
+
 Physical servers     | Cloud Provider
+
 User accounts        | Customer
+
 Student data         | Customer
+
 IAM permissions      | Customer
+
 Application security | Customer
+
 Database access rules| Customer
+
 Backups              | Customer 
 
 1. What does Security OF the Cloud mean?
