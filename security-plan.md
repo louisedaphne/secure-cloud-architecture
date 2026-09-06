@@ -1,15 +1,19 @@
 # Secure Cloud Architecture Plan
 
 Users
+Users are the people who access the Student Management System through the internet once it is created
 
 CDN
+CDN this can help the users get the website files quickly because it provides the information from the server closest to the user.
 
 Load Balancer
+Load balancer this can receive a request for the user then the load balancer share the request to available application server
 
 Application Servers
+Application Server this one is the main function of the student server because application server process the users request
 
 Private Database
-
+Private database is for only the users that has a authorized access to the database
 
 # Public and Private Resources
 
