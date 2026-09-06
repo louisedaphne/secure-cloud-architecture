@@ -98,47 +98,47 @@ Backups              | Customer
 
 Security Of the Cloud means the Cloud provider is responsible for ecuring the physical infrastructure lies with the cloud provider.
 
-3. What does Security IN the Cloud mean?
+2. What does Security IN the Cloud mean?
   
    Security IN the cloud means the users are responsible on what they are put in the cloud like user account,data or any information to protect their data and resources inside the cloud
 
-4. Which resource should be directly accessible from the Internet?
+3. Which resource should be directly accessible from the Internet?
   
    Load balance should be direct to internet because it access the users request from the internet
 
-5. Why should the database remain private?
+4. Why should the database remain private?
  
   Database should remain private because it has a users private information for unauthorized users 
 
-6. Why should users not connect directly to the database?
+5. Why should users not connect directly to the database?
   
    Users should not connect direct to database because it can expose other student private information
 
-7. What is the purpose of a load balancer?
+6. What is the purpose of a load balancer?
    
    the purpose of Load balancer is to distribute other users request to other application server 
 
-8. What happens if one application server fails?
+7. What happens if one application server fails?
    
   If the one application server fails the balancer will send a request to a working application server
 
-9. What is the purpose of a CDN?
+8. What is the purpose of a CDN?
    
    The purpose of CDN is to deliver a website contents fast from a server closer location to the user. 
 
-10. Why should administrator accounts use MFA?
+9. Why should administrator accounts use MFA?
     
   MFA is a extra protection that administrator can use to prevent unwanted people from accessing the application
 
-11. Why should administrator access not be given to every employee?
+10. Why should administrator access not be given to every employee?
     
   Administrator access is limited only the authorized person can access it because it has high level of control over the system
 
-12. Why are logging and monitoring important?
+11. Why are logging and monitoring important?
     
   Logging and monitoring is important because it help to determine any security issues and suspicious behavior.
 
-13. Why are backups important?
+12. Why are backups important?
   
   Backups is important because if a document is accidentally deleted it allow student data to be restored if the document is backups
 
