@@ -1,18 +1,23 @@
 # Secure Cloud Architecture Plan
 
 Users
+
 Users are the people who access the Student Management System through the internet once it is created
 
 CDN
+
 CDN this can help the users get the website files quickly because it provides the information from the server closest to the user.
 
 Load Balancer
+
 Load balancer this can receive a request for the user then the load balancer share the request to available application server
 
 Application Servers
+
 Application Server this one is the main function of the student server because application server process the users request
 
 Private Database
+
 Private database is for only the users that has a authorized access to the database
 
 # Public and Private Resources
@@ -31,18 +36,31 @@ Database | Private | Database it should be private because it contain a private 
 # Security Controls
 
 - IAM
+
 The cloud environment must be accessible only by authorized users. Administrators must have more permissions to  environment while normal users can only access the function they need.
 - MFA
+
 MFA should be enable for administrators and individuals who have access to confidential information for added layer of security.
 - Firewall / Security Group
 
+Firewall this control the which connection is allowed between the different part of the student management system to block the unauthorized access.
+
+Internet → Load Balancer = Allowed
+Load Balancer → Application Server = Allowed
+Application Server → Database = Allowed
+Internet → Database = Blocked
+
 - Encryption
+
 student information should be encrypted to ensure no unauthorized people can access the confidential information.
 - Logging
+
 Every activity once login should be recorded like failed login attempts, user logins also the changes that made in the cloud should be recorded for security incidents.
 - Monitoring
+
 system needs to monitor any suspicious behavior like multiple login failures and illegal access attempts to access database.
 - Backup
+
 Database should be backup to prevent loss of student record if its happened backup record allow to restored the information if accidentally delete or corrupted.
 
 # Principle of Least Privilege
