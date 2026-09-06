@@ -3,7 +3,7 @@
 Name: Mendoza, Louise Daphne S.
 Section: CCIS7E
 Course:BSIT - NET ADD
-Date: Sept 5, 2026
+Date: Sept 6, 2026
 ## Project Description
 This activity demonstrates a proposed secure cloud architecture for a Student
 Management Application.
