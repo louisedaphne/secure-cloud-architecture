@@ -1,4 +1,3 @@
-# secure-cloud-architecture
 # Secure Cloud Architecture
 ## Student Information
 Name: Mendoza, Louise Daphne S.
